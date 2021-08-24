@@ -1,11 +1,15 @@
 #include <iostream>
 
-using std::cout;
+int a = 7;
+
+int fun(int a) { return a + a; }
 /*
-it's my best test
-my beatiful list will start
+   it's my best test
+   my beatiful list will start
  */
 int main() {
-  cout << "Hello world\n";
+
+  std::cout << "Hello world \n" << fun(a);
+
   return 0;
 }
